@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<body>
+<div id="map" style="width:100%;height:500px"></div>
+<div id="buttons">
+  <button name="clearPath" onclick="clearMap()" >Clear path</button>
+  <button name="savePath" onclick="savePaths()" >Save path</button>
+  <button name="showHeatMap" onclick="setHeatMap()" >Show heat map</button>
+</div>
+<div id="paths">
+  <select id="pathsSaved" name="pathsSaved" size="0">
+  </select>
+</div>
+<div id="exportToJson">
+<button  name="toJson" onclick="exportToJson()">Export to JSON</button>
+</div>
+
+<script src="maps.js"></script>
+<script
+  async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY&callback=initMap&libraries=visualization">
+</script>
+
+</body>
+</html>

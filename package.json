@@ -1,0 +1,26 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "Simple nodejs web with a heat map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desiki/heatmap.git"
+  },
+  "keywords": [
+    "maps",
+    "google",
+    "heatmap",
+    "path",
+    "markers"
+  ],
+  "author": "Jose Sánchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desiki/heatmap/issues"
+  },
+  "homepage": "https://github.com/desiki/heatmap#readme"
+}
